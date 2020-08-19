@@ -1,0 +1,168 @@
+/* TAGS */
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+    background-color:white;
+    color: #40514e;
+    font-size: 1.5rem;
+}
+
+
+a {
+    color:grey ;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+hr {
+   
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 4%;
+}
+
+h1 {
+    color: grey;
+    font-size: 4.9rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+h2 {
+    color: grey;
+    font-size: 2.56em;
+    font-family: fantasy;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999e;
+    font-family: 'Merriweather', serif;
+}
+
+
+p {
+    line-height: 2;
+}
+
+/* TOP SECTION */
+.top-container {
+    background-image:linear-gradient(#11999e, #11cdde);
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+}
+
+.mountain {
+    width: 70%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+
+/* SECOND SECTION */
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+.middle-container{
+    margin: 100px 0;
+   
+   }
+
+.skill-row{
+    line-height: 2;
+    margin: 100px auto 150px auto;
+    text-align: left;
+    width: 50%;    
+}
+.bio {
+    width: 30%;
+    margin: auto;
+}
+/* .mountain {
+    height: 400px;
+    width: 200px;
+} */
+.skill-img {
+    width: 25%;
+    border-radius: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-imgct {
+    width: 25%;
+    border-radius: 30%;
+    float: right;
+    margin-right: 30px;
+}
+
+.others{
+    color: #11999e;
+    margin: 0;
+}
+
+.contact-mes {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+
+button{
+    background-image:linear-gradient(#11999e, #11cdde);
+    border:0px ;
+    color:darkgrey;
+    border-radius: 8px;
+    height: 40px;
+    font-weight: bolder;
+    font-family:'Merriweather', serif;
+}
+
+.copy-right {
+    color: #eaf6f6;
+    padding: 40px 0 0;
+    font-size: 0.75rem;
+
+}
+
+/* button:hover{
+    background-image: linear-gradient(blue red);
+} */
+
+/* 
+.skill-img{
+    height: 300px;
+    width: 400px;
+} */
+
+/* FOOTER */
+.bottom-container{
+    background-image:linear-gradient(#11999e, #11cdde);
+    padding: 10% 0 7%;
+    
+}
+
+
